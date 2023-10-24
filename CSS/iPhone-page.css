@@ -1,0 +1,43 @@
+.product-name {
+    font-size: 24px;
+    text-align: left;
+}
+
+.product-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-price p {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: start;
+    margin: 0;
+}
+
+.product-btn {
+    color: black;
+}
+
+.product-info {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.product-info ul li {
+    padding-bottom: 3px;
+    font-size: 14px;
+    color: #71797e;
+}
+
+.product-info ul {
+    padding: 0;
+}
+
+.right-block p {
+    font-size: 24px;
+}
+
+.card {
+    margin-left: 24px;
+}

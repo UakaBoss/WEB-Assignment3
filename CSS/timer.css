@@ -1,0 +1,50 @@
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#timer-container>p {
+    font-size: 32px;
+}
+
+#timer-main {
+    font-size: 80px;
+}
+
+#timer-function {
+    margin-top: 1em;
+}
+
+#timer-duration {
+    width: 100%;
+}
+
+#start,
+#stop {
+    margin: 0;
+    padding: 0;
+    width: 48%;
+    padding: 10px 20px;
+    border: 1px solid #0d6efd;
+    border-radius: 8px;
+    background-color: transparent;
+    width: 48%;
+    transition: all 0.1s;
+}
+
+#start:hover,
+#stop:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+#start:active,
+#stop:active {
+    background-color: #0c5bd1;
+}
+
+#buttons {
+    margin-top: 1em;
+}
